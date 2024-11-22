@@ -1,0 +1,15 @@
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\bin\Debug\Music_wpf.exe.config
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\bin\Debug\Music_wpf.exe
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\bin\Debug\Music_wpf.pdb
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.csproj.AssemblyReference.cache
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\MainWindow.g.cs
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\App.g.cs
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf_MarkupCompile.cache
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf_MarkupCompile.lref
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\MainWindow.baml
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.g.resources
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.Properties.Resources.resources
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.csproj.GenerateResource.cache
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.csproj.CoreCompileInputs.cache
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.exe
+T:\ISS-ICS3U1-1\alek3400\Music_wpf\Music_wpf\obj\Debug\Music_wpf.pdb
