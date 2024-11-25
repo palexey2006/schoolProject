@@ -6,15 +6,25 @@
         xmlns:local="clr-namespace:Music_wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid UseLayoutRounding="True">
-        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="707,389,0,0" Click="CloseButton_Click"/>
-        <Label Content="Song name" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="53" Width="161" FontSize="30"/>
-        <TextBox x:Name="SongNameBox" HorizontalAlignment="Left" Height="39" Margin="10,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" TextAlignment="Center"/>
-        <Label Content="Artist name" HorizontalAlignment="Left" Margin="10,1,0,0" VerticalAlignment="Top" Height="49" Width="161" FontSize="30"/>
-        <TextBox x:Name="ArtistNameBox" HorizontalAlignment="Left" Height="39" Margin="10,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" TextAlignment="Center" UseLayoutRounding="False" />
-        <Label Content="Release date" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top" Height="53" Width="176" FontSize="30"/>
-        <TextBox x:Name="SongNameBox_Copy" HorizontalAlignment="Left" Height="39" Margin="10,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" TextAlignment="Center" Text="dd/mm/yyyy"/>
-        <Button x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Margin="10,333,0,0" VerticalAlignment="Top" Width="176" RenderTransformOrigin="0.114,0.566" Height="31" FontSize="20"/>
+    <Grid UseLayoutRounding="True" Background="#FF2D2D2D">
+        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="704,382,0,0" Click="CloseButton_Click" RenderTransformOrigin="0.576,-2.936" Background="#FFFF0050" Foreground="#FFC8C8C8" BorderThickness="0"/>
+        <Label Content="Song name" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Height="53" Width="161" FontSize="30" Foreground="#FFFF0050"/>
+        <TextBox x:Name="SongNameBox" HorizontalAlignment="Left" Height="32" Margin="10,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" TextAlignment="Center" Background="#FF616161" Foreground="#FFC8C8C8" BorderThickness="0"/>
+        <Label Content="Artist name" HorizontalAlignment="Left" Margin="10,1,0,0" VerticalAlignment="Top" Height="49" Width="161" FontSize="30">
+            <Label.Foreground>
+                <SolidColorBrush Color="#FFFF0050"/>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="ArtistNameBox" HorizontalAlignment="Left" Height="32" Margin="10,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" TextAlignment="Center" UseLayoutRounding="False" Background="#FF616161" Foreground="#FFC8C8C8" BorderThickness="0"/>
+        <Label Content="Release date" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Height="53" Width="176" FontSize="30" Foreground="#FFFF0050"/>
+        <TextBox x:Name="ReleaseDateBox" HorizontalAlignment="Left" Height="32" Margin="10,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextChanged="TextBox_TextChanged" FontSize="25" SelectionOpacity="0.01" TextAlignment="Center" FontStyle="Italic" FontFamily="Arial Nova" MaxLines="2" Background="#FF616161" Foreground="#FFC8C8C8" SelectionBrush="#FF768DA0"  BorderThickness="0" UseLayoutRounding="True"/>
+
+        <Button x:Name="SearchButton"  Content="Search" HorizontalAlignment="Left" Margin="593,230,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.114,0.566" Height="28" FontSize="20" Background="#FFFF0050" Foreground="#FFC8C8C8" BorderThickness="0"/>
+        <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" TextChanged="TextBox_TextChanged" FontSize="15" SelectionOpacity="0.01" FontFamily="Arial Nova" MaxLines="2" Background="#FF616161" Foreground="#FFC8C8C8" SelectionBrush="#FF768DA0"  BorderThickness="0" UseLayoutRounding="True" TextAlignment="Justify" FontStyle="Italic" Margin="237,233,0,0"/>
+        <Image x:Name="ImageBox" HorizontalAlignment="Left" Height="81" Margin="698,10,0,0" VerticalAlignment="Top" Width="84" Source="/apple.png"/>
+        <Button x:Name="AddButton"  Content="Add" HorizontalAlignment="Left" Margin="62,335,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.114,0.566" Height="30" FontSize="20" Click="AddButton_Click" Background="#FFFF0050" Foreground="#FFC8C8C8" BorderThickness="0"/>
+        <Button x:Name="NextButton"  Content="&gt;" HorizontalAlignment="Left" Margin="548,293,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.114,0.566" Height="28" FontSize="20" Background="#FFFF0050" Foreground="#FFC8C8C8" BorderThickness="0" FontWeight="Bold"/>
+        <Button x:Name="PreviousButton"  Content="&lt;" HorizontalAlignment="Left" Margin="237,298,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.114,0.566" Height="28" FontSize="20" Background="#FFFF0050" Foreground="#FFC8C8C8" BorderThickness="0" FontWeight="Bold"/>
 
     </Grid>
 </Window>

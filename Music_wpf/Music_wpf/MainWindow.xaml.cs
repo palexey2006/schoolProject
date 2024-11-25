@@ -20,8 +20,15 @@ namespace Music_wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private BrushConverter brushConverter = new BrushConverter();
+        private List<string> Names = new List<string>();
+        private List<string> Songs = new List<string>();
+        private List<DateTime> Releases = new List<DateTime> ();
+        private int currentSong;
+
         public MainWindow()
         {
+            currentSong = 0;
             InitializeComponent();
         }
 
@@ -30,6 +37,28 @@ namespace Music_wpf
             this.Close();
         }
 
+        
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if(ArtistNameBox.Text != "" && SongNameBox.Text != "")
+                {
+                    Releases.Add(DateTime.Parse(ReleaseDateBox.Text));
+                    Names.Add(ArtistNameBox.Text);
+                    Songs.Add(SongNameBox.Text);
+                    ArtistNameBox.Clear();
+                    SongNameBox.Clear();
+                    ReleaseDateBox.Clear();
+                }
+            } catch
+            {
+                MessageBox.Show("Wrong data,Try again");
+            }
+        }
+
+        
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
